@@ -1,0 +1,17 @@
+<html>
+    <body data-ng-app="app">
+        <h1>Demo of react in angularjs</h1>
+        <div data-ng-controller="ImageController">
+            <div data-ng-repeat="item in list">
+                <h2>{{item.city}}</h2>
+
+                <render-image image-url=item.img></render-image>
+            </div>
+        </div>
+
+
+
+
+        <script src="dist/bundle.min.js"></script>
+    </body>
+</html>
