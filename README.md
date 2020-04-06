@@ -1,7 +1,7 @@
 Converting (or creating a new) React component in a AngularJS application.
 
 Typically a angularJS application follows this directory structure:
-
+```
 - app.js
 -- modules
 --- module1
@@ -14,6 +14,7 @@ Typically a angularJS application follows this directory structure:
 ----- exampleRoutes.js
 ---- partials
 ----- doc.html
+```
 
 A react component generally performs the responsibilities normally separated in angularJS controllers and directives.
 Therefore, when replacing an angularJS directive, you are replacing the directive and controller responsible.
